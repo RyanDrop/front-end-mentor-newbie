@@ -1,0 +1,31 @@
+/* Global */
+:root{
+    --very-dark-blue: hsl(233, 47%, 7%);
+    --dark-desaturated-blue: hsl(244, 38%, 16%);
+    --soft-violet: hsl(277, 64%, 61%);
+    --white: hsl(0, 0%, 100%);
+    --sightly-transparent-white: hsla(0, 0%, 100%, 0.75);
+    --slightly-transparent-white: hsla(0, 0%, 100%, 0.6);
+}
+
+body{
+    background-color: var(--very-dark-blue);
+    height: 100vh;
+    width: 100vw;
+}
+
+/* attribution */
+.attribution {
+  position: fixed;
+  width: 100%;
+  background-color: var(--white);
+  bottom: 0;
+  font-size: 14px;
+  text-align: center;
+  padding: 5px 0px;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: rgb(12, 36, 255);
+}
