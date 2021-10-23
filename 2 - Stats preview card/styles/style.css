@@ -15,6 +15,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    user-select: none;
 }
 /* Main */
 main{
@@ -77,19 +78,40 @@ p{
 .date p{
     text-transform: uppercase;
 }
-/* attribution */
-.attribution {
-  position: fixed;
-  width: 100%;;
-  color: rgba(255, 255, 255, 0.185);
-  bottom: 0;
-  font-size: 12px;
-  text-align: center;
-  padding: 4px 0px;
-  font-family: "Inter";
-}
 
-.attribution a {
-  text-decoration: none;
-  color: rgba(43, 206, 228, 0.192);
+/* @media */
+@media (min-width:800px){
+    main{
+        width: 750px;
+        height: 340px;
+        flex-direction: row-reverse;
+    }
+    section{
+        width: 390px;
+        padding: 40px 40px;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    h1{
+        font-size: 27px;
+        text-align: left;
+    }
+    p{
+        text-align: left;
+        font-size: 12px;
+    }
+    .illustration{
+        background: url(./images/image-header-desktop.jpg) var(--soft-violet);
+        height: 100%;
+        border-radius: 0px 10px 10px 0px;
+        width: 375px;
+        background-size: 100% 100%;
+    }
+    .date{
+        flex-direction: row;
+        justify-content: space-between;
+        height: auto;
+        width: 100%;
+    }
+
 }
