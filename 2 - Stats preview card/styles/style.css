@@ -82,23 +82,24 @@ p{
 /* @media */
 @media (min-width:800px){
     main{
-        width: 750px;
+        width: 780px;
         height: 340px;
         flex-direction: row-reverse;
+        justify-content: space-between;
     }
     section{
-        width: 390px;
-        padding: 40px 40px;
+        width: 395px;
+        padding: 40px 45px 40px 40px;
         flex-direction: column;
         justify-content: space-around;
     }
     h1{
-        font-size: 27px;
+        font-size: 29px;
         text-align: left;
     }
     p{
         text-align: left;
-        font-size: 12px;
+        font-size: 13px;
     }
     .illustration{
         background: url(./images/image-header-desktop.jpg) var(--soft-violet);
