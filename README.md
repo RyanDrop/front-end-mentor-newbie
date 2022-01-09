@@ -10,6 +10,7 @@ Desafios para iniciantes em Frontend no FrontendMentor, realizados por mim para 
 | [JavaScript ES6](https://developer.mozilla.org/en-US/docs/Web/JavaScript) |
 
 </div>
+
 ## :boy: _Autor_
 
 <div align="center">
