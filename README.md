@@ -2,12 +2,18 @@
 Desafios para iniciantes em Frontend no FrontendMentor, realizados por mim para treinar meus conhecimentos.
 <div align="center">
 
+
+|                            Order-Summary                            |                             Stats-Preview                          |
+| :----------------------------------------------------------------------: | :---------------------------------------------------------------------: |
+| <kbd><img src="readme-images/order-summary-newbie.png" alt="Tablet"/></kbd> | <kbd><img src="readme-images/stats-preview-newbie.png" alt="Mobile"/></kbd> |
+
+</div align="center">
+
 | :globe_with_meridians: FrontEnd |
 | :-----------------------------: |
 
 | [HTML 5](https://www.w3schools.com/html/) |
 | [CSS3](https://www.w3schools.com/css/) |
-| [JavaScript ES6](https://developer.mozilla.org/en-US/docs/Web/JavaScript) |
 
 </div>
 
